@@ -1,6 +1,6 @@
 {
   "name": "strip-comments2",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Strip line and block comments, fast and tiny.",
   "main": "index.js",
   "scripts": {
@@ -16,6 +16,13 @@
     "comments",
     "comment"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Plumbiu/strip-comments2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Plumbiu/strip-comments2/issues"
+  },
   "author": "Plumbiu",
   "license": "MIT",
   "devDependencies": {
