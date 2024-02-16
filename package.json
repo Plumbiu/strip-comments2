@@ -1,0 +1,30 @@
+{
+  "name": "strip-comments2",
+  "version": "0.0.1",
+  "description": "Strip line and block comments, fast and tiny.",
+  "main": "index.js",
+  "scripts": {
+    "test": "pnpm vitest",
+    "bench": "pnpm vitest bench",
+    "build": "tsup"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "fast",
+    "comments",
+    "comment"
+  ],
+  "author": "Plumbiu",
+  "license": "MIT",
+  "devDependencies": {
+    "@plumbiu/eslint-config": "^0.2.1",
+    "@types/node": "^20.11.18",
+    "@types/strip-comments": "^2.0.4",
+    "eslint": "^8.56.0",
+    "strip-comments": "^2.0.1",
+    "tsup": "^8.0.2",
+    "vitest": "^1.2.2"
+  }
+}

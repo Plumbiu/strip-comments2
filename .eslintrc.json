@@ -1,0 +1,6 @@
+{
+  "extends": "@plumbiu",
+  "rules": {
+    "@stylistic/quotes": "off"
+  }
+}
